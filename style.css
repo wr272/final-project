@@ -22,7 +22,25 @@
     text-align: center;
   }
  
+  /* Media Queries */
+  @media (min-width: 780px) {
+    /* Home Page */
+    .container__hero {
+      margin: 80px 2% 100px 2%;
+    }
 
+  .intro-btn {
+    margin: 30px auto;
+    text-align: left;
+  }
+
+
+
+  .carousel-height img {
+    object-fit: cover;
+    height: 550px;
+    width: 100%;
+  }
 
 /* Pricing Page */
 .card__section-flex {
@@ -36,3 +54,4 @@
     margin-right: 15px;
   }
 
+  }

@@ -21,6 +21,7 @@
     margin: 30px auto;
     text-align: center;
   }
+
  
   /* Media Queries */
   @media (min-width: 780px) {
@@ -33,8 +34,6 @@
     margin: 30px auto;
     text-align: left;
   }
-
-
 
   .carousel-height img {
     object-fit: cover;
